@@ -59,6 +59,7 @@ To establish a WebSocket connection with Deltaton, include these required header
 For complete implementation examples, refer to our sample code:
 - [TypeScript Example](https://github.com/deltaton-labs/deltaton-mcp-doc/blob/main/examples/typescript-example.ts)
 - [Python Example](https://github.com/deltaton-labs/deltaton-mcp-doc/blob/main/examples/python-example.py)
+- or use our Python SDK [deltaton_feed_py](https://github.com/deltaton-labs/deltaton_feed_py) to easily feed data to the Deltaton platform.
 
 These examples demonstrate establishing WebSocket connections and streaming data to the Deltaton platform.
 

@@ -11,13 +11,8 @@ Deltaton supports 7 specialized agent types. When an endpoint requires the `agen
 
 | Agent Type | Description | Common Use Cases |
 |------------|-------------|------------------|
-| `bee` | Bee Agent | Beekeeping management, colony health monitoring |
-| `fruitgrowing` | Fruit Growing Agent | Orchard management, fruit crop optimization |
 | `general` | General Agent | Broad agricultural queries, basic farm management |
-| `greenhouse` | Greenhouse Agent | Climate control, indoor crop management |
-| `irrigationfertilization` | Irrigation and Fertilization Agent | Water management, nutrient planning |
-| `plantprotection` | Plant Protection Agent | Disease prevention, pest control strategies |
-| `viticulture` | Viticulture Agent | Vineyard management, wine grape production |
+| `myfarm` | Your Farm | Create a farm at first using the Deltaton platform and then use it to manage your farm|
 
 # Data Feeding
 The Data Feed system allows real-time data streaming to the Deltaton platform via WebSocket connections. This data serves as context for agent responses, enabling more accurate and personalized recommendations.

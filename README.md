@@ -12,7 +12,7 @@ Deltaton supports 7 specialized agent types. When an endpoint requires the `agen
 | Agent Type | Description | Common Use Cases |
 |------------|-------------|------------------|
 | `general` | General Agent | Broad agricultural queries, basic farm management |
-| `myfarm-<FarmID>` | Your Farm | Create a farm at first using the Deltaton platform and then use it to manage your farm|
+| `myfarm-<FarmID>` | Your Farm | Tailored recommendations for your farm|
 
 Use the web app to create a farm and get your farm ID on the farm page.
 

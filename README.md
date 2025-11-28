@@ -12,7 +12,7 @@ Deltaton supports 7 specialized agent types. When an endpoint requires the `agen
 | Agent Type | Description | Common Use Cases |
 |------------|-------------|------------------|
 | `general` | General Agent | Broad agricultural queries, basic farm management |
-| `myfarm-<Your-Farm-ID>` | Your Farm | Create a farm at first using the Deltaton platform and then use it to manage your farm|
+| `myfarm-<FarmID>` | Your Farm | Create a farm at first using the Deltaton platform and then use it to manage your farm|
 
 Use the web app to create a farm and get your farm ID on the farm page.
 
@@ -60,7 +60,7 @@ For complete implementation examples, refer to our sample code:
 
 These examples demonstrate establishing WebSocket connections and streaming data to the Deltaton platform.
 
-# MCP API Documentation
+# REST API Documentation
 The Deltaton platform features specialized AI agents for different agricultural domains. Each agent operates in its own chat session, allowing for focused interactions and personalized recommendations. To begin using an agent, first create a dedicated session and then engage in conversation through that session.
 
 ## Authentication Headers
@@ -87,7 +87,7 @@ Deltaton provides multilingual support across these languages:
 When making requests that require the `lang` parameter (such as sending messages), specify your desired language using the corresponding language code.
 Example: `{ "prompt": "Hello", "lang": "en" }`
 
-## MCP/API Endpoints
+## REST API Endpoints
 
 ### IMPORTANT
 Before you start using the endpoints, structure your project so you first create a session and then send messages within that session. Every new message request must include the session ID (`_id`) as a path parameter in the URL. We recommend creating a separate session for each agent. For example, if you're using the General Agent, create its session first and then use that session for all subsequent messages.

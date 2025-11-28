@@ -1,13 +1,13 @@
 # Deltaton API & Data Feed Documentation
 The Deltaton platform offers two primary interaction methods along with the web and mobile apps.
-1. **REST (or MCP) API** - A REST API interface for interacting with Deltaton agents via HTTP requests.
+1. **REST (or MCP) API** - A REST API interface for interacting with Deltaton via HTTP requests.
 2. **Data Feed** - Real-time data streaming (feeding data) to Deltaton via WebSocket, enabling direct agent interaction on the platform.
 
 ## Base URL
 `https://api.deltaton.com`
 
 ## Agent Types
-Deltaton supports 7 specialized agent types. When an endpoint requires the `agentType` property in the request body, use one of the following values:
+Deltaton supports 2 specialized agent types. When an endpoint requires the `agentType` property in the request body, use one of the following values:
 
 | Agent Type | Description | Common Use Cases |
 |------------|-------------|------------------|
